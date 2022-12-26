@@ -1,0 +1,29 @@
+.clients {
+    padding: 0 2rem 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.clients__img img {
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .clients {
+        gap: 5rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .clients {
+        padding: 0 6rem;
+        gap: 5rem;
+    }
+}
+@media screen and (min-width:1440px) {
+    .clients {
+        padding: 0 8rem;
+        gap: 10rem;
+    }
+}

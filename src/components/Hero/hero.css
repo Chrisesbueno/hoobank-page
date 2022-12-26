@@ -1,0 +1,234 @@
+.hero {
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+}
+.hero-imgMain {
+    height: 350px;
+}
+.hero-imgMain img {
+    position: relative;
+    width: 100%;
+    right: -2rem;
+}
+.hero__content-discount {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 0.3rem;
+    border-radius: 10px;
+    width: 300px;
+}
+.hero__content-discount p {
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--color-text);
+}
+.hero__content-discount span {
+    color: white;
+    font-weight: bold;
+}
+.hero__content-title {
+    margin: 2.5rem 0 1rem;
+    position: relative;
+}
+.hero__content-title h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: 0.01em; 
+}
+.button {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+}
+.button:hover {
+    border: 4px solid #5CE1E6;
+}
+.button__content {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.button__content p {
+    font-weight: 500;
+    font-size: 16px;
+}
+.button__content img {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+.hero__content-text {
+    margin-bottom: 2rem;
+}
+.hero__content-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+    color: var(--color-text);
+}
+
+.hero__white {
+    width: 195px;
+    height: 174px;
+    position: absolute;
+    left: 0rem;
+    top: 0vh;
+    z-index: -2;
+}
+.hero__blue {
+    width: 308px;
+    height: 171px;
+    position: absolute;
+    top: 100vh;
+    left: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+.hero__white {
+    width: 195px;
+    height: 174px;
+    position: absolute;
+    left: 0rem;
+    top: 0vh;
+    z-index: -2;
+}
+.hero__white2 {
+    position: absolute;
+    width: 95px;
+    height: 174px;
+    z-index: -2;
+}
+
+@media screen and (min-width:425px) {
+    .hero__content-title h1 {
+        width: 90%;
+    }
+}
+@media screen and (min-width:768px) {
+    .hero__content-title h1 {
+        width: 90%;
+        font-weight: 600;
+        font-size: 52px;
+        letter-spacing: 0.01em; 
+    }
+    .button {
+        width: 140px;
+        height: 140px;
+        top: 8%;
+        right: 0%;
+    }
+    .button__content {
+        padding: 2rem;
+    }
+    .button__content p {
+        text-align: start;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .button__content img {
+        top: 30%;
+        right: 30%;
+    }
+    .hero__content-text p {
+        font-size: 18px;
+        line-height: 175%;
+    }
+    .hero__white {
+        width: 195px;
+        height: 224px;
+        left: -4rem;
+    }
+    .hero__blue {
+        width: 378px;
+        height: 471px;
+        top: 100vh;
+        left: 30vw;
+        right: 0;
+    }
+    .hero__white2 {
+        width: 95px;
+        height: 324px;
+    }
+
+}
+@media screen and (min-width:1024px) {
+    .hero {
+        padding: 2rem 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero__content {
+        margin-top: 3rem;
+    }
+    .hero-imgMain img {
+        right: -3rem;
+    }
+    .hero__content-title {
+        width: 130%;
+    }
+    .hero__content-title h1 {
+        font-size: 58px;
+        letter-spacing: 0.01em; 
+        line-height: 140%;
+    }
+    .hero__content-title {
+        margin: 1rem 0 2rem;
+    }
+    .button {
+        width: 140px;
+        height: 140px;
+        top: 5%;
+        right: 15%;
+    }
+    .hero__content-text {
+        margin-bottom: 0rem;
+    }
+    .hero__white {
+        width: 195px;
+        height: 324px;
+        left: -4rem;
+    }
+    .hero__blue {
+        width: 578px;
+        height: 571px;
+        left: 50%;
+        right: 100%;
+        top: -30vh;
+        right: 0;
+    }
+    .hero__white2 {
+        width: 195px;
+        height: 324px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .hero__content-title h1 {
+        font-size: 72px;
+    }
+    .hero__content {
+        margin-top: 10rem;
+    }
+    .button {
+        right: 25%;
+    }
+    .hero {
+        padding: 3rem 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}

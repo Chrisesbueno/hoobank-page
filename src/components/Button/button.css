@@ -1,0 +1,15 @@
+.button__link {
+    text-decoration: none;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__link a {
+    text-decoration: none;
+    color: #00040E;
+    font-weight: 500;
+    font-size: 18px;
+}

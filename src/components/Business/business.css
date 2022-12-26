@@ -1,0 +1,119 @@
+.business {
+    padding: 4rem 2rem;
+}
+.business__content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 135%;
+    letter-spacing: 0.01em;
+}
+.business__content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: var(--color-text);
+    margin: 1rem 0 2rem;
+}
+.business__content {
+    padding: 2rem 0;
+}
+.business__features-feature {
+    max-width: 470px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.business__features-feature:last-child {
+    margin-bottom: 0rem;
+}
+.business__features-feature:hover {
+    background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.business__features-feature__img {
+    width: 32px;
+    height: 32px;
+    padding: 1rem;
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(9, 151, 124, 0.1);
+    border-radius: 50%;
+}
+.business__features-feature__img img {
+    width: 16px;
+    height: 16px;
+}
+.business__feature-feature__content h2 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+}
+.business__feature-feature__content p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--color-text);
+}
+
+@media screen and (min-width:768px) {
+    .business {
+        display: flex;
+        align-items: center;
+    }
+    .business__content {
+        width: 85%;
+        margin-right: 1rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .business {
+        padding: 3rem;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .business__content {
+        width: 65%;
+    }
+    .business__content h1 {
+        font-size: 48px;
+    }
+    .business__content p {
+        font-size: 16px;
+    }
+    .business__content {
+        padding: 0rem 0;
+    }
+    .business__features-feature__img {
+        padding: 1.8rem;
+    }
+    .business__features-feature__img img {
+        width: 32px;
+        height: 32px;
+    }
+    .business__feature-feature__content h2 {
+        font-size: 18px;
+    }
+    .business__feature-feature__content p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .business {
+        padding: 4rem;
+        justify-content: space-between;
+    }
+    .business__content {
+        width: 47%;
+    }
+    .business__content p {
+        font-size: 19px;
+    }
+}
